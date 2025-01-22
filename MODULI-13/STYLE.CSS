@@ -1,0 +1,25 @@
+ul{
+    /* list-style-type:square ;
+    background: pink;
+    padding: 0px;
+    border: 10px solid"green"; */
+    border-left: 5px solid pink;
+    background-color: blueviolet;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+ol li{
+    list-style-type: lower-alpha;
+    background: purple;
+    margin-left: 30px;
+    border: 8px 15px solid"black";
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+}
