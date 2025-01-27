@@ -1,0 +1,25 @@
+/* article > p{
+    background: gray;
+    color: blanchedalmond;
+    padding: 20px;
+} */
+article > p{
+    background: gray;
+    color: blanchedalmond;
+    padding: 20px;
+}
+article ~ p{
+    background: gray;
+    color: blanchedalmond;
+    padding: 20px;
+}
+article + p{
+    background: rgb(221, 0, 0);
+    color: blanchedalmond;
+    padding: 70px;
+}
+
+h3:first-child{
+    background-color: rgb(55, 0, 255);
+    color: black;
+}
