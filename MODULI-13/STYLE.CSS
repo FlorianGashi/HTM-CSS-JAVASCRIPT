@@ -23,3 +23,16 @@ td,th{
     border: 1px solid black;
     padding: 15px;
 }
+
+tbody tr:nth-child(odd){
+    background-color: purple;
+}
+tbody tr:nth-child(even){
+    background-color: blue;
+}
+div{
+    overflow: scroll;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 200px;
+}
