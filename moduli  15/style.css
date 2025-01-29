@@ -1,0 +1,57 @@
+div#Static{
+    position: static;
+    border:3px solid rgb(255, 217, 0);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+div#Relative{
+    position: relative;
+    border: 4px solid burlywood;
+    width: 254px;
+    height: 254px;
+    left: 200px;
+    top: 20px;
+}
+div#Fixed{
+    position:fixed;
+    border: 4px solid rgb(221, 0, 48);
+    width: 254px;
+    height: 254px;
+    padding: 20px;
+    right: 200px;
+    top: 100px;
+}
+div#parent{
+    position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+div#absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    right: 80px;
+    top: 70px;
+    color: aquamarine;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
