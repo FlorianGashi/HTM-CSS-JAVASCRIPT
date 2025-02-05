@@ -1,0 +1,28 @@
+div.galery{
+    margin: 5px;
+    border: 5px solid blue;
+    float: left;
+    width: 180px;
+}
+div.galery:hover{
+    border: 5px solid brown;
+}
+div.galery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.sprite {
+    background: url("../images/houses.png");
+  }
+  
+  .engineers {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+  
+  }
