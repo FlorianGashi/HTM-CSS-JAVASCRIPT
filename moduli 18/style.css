@@ -1,0 +1,69 @@
+/* div#translate{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: aqua;
+    background-color: black;
+    transform: translate(100px ,50px);
+    padding: 5px;
+} */
+/* div#rotate{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    transform:rotate(-275deg);
+    padding: 5px;
+}
+div#scale{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    transform:scaleY(3);
+    padding: 5px;
+} */
+div#skewx{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    transform: skewX(7deg);
+    padding: 5px;
+}
+div#skewy{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    transform: skewY(-7deg);
+    padding: 5px;
+}
+div#rotateX{
+    transform: rotateX('150deg');
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+}
+div#rotateY{
+    transform: rotateY('150deg');
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+} 
+div#rotateZ{
+    transform: rotateZ('150deg');
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+}
