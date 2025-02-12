@@ -1,4 +1,4 @@
-/* .dropdown{
+/* /* .dropdown{
     position: relative;
     display: inline-block;
 }
@@ -31,9 +31,9 @@
    z-index: 1;
 }
 .tooltip:hover .tooltiptext{
-    visibility: visible; */
-/* } */
-:root{
+    visibility: visible;}  */
+
+ :root{
     --primary-color:blue;
     --secondary-color:red;
     --padding:5px;
@@ -66,5 +66,57 @@ h2::before{
     background-color: aquamarine;
     color: black;
     margin: 10px;
+}
+#example-one{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background: #BADA55;
+    
+}
+#example-two{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 56789px;
+    border: 34px solid black;
+    background: blue;
+}
+#example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px; 
+    border: 8PX solid blue;
+    background-image: url(.//download.jfif);
+
+
+}
+#example-four{
+   
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 16px 99px; 
+    background: #BADA55;
+
+}
+#example-six{
+   
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px/50px; 
+    background: #BADA55;
+
+}
+#example-five{
+   
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 60px/99px; 
+    background: #BADA55;
 
 }
