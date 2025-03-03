@@ -46,7 +46,7 @@ nav ul li.active{
     border-radius: 5px;
     padding: 25px  20p;
 }
-#s2ection-2 {
+#section-2 {
     background-color: #17c2a4;
     min-height: 745px;
     color: white;
@@ -91,4 +91,73 @@ nav ul li.active{
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 60px;
+}
+#section-3{
+ background-color: rgb(13, 63, 13);
+ min-height: 850px;
+ color: white;
+}
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.from-row{
+    display: flex;
+}
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+input[type="text"], input[type="email"] textarea{
+    color: white;
+    background-color: blue;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 28px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 26px;
+}
+input[type="submit"]{
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.big-button{
+    padding: 26px 85px;
+    color: white;
+}
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+header img{
+    width: 117px;
+    height: 37px;
 }
