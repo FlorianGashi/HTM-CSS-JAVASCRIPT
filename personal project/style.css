@@ -3,8 +3,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
 #section-1{
-    background-color: purple;
-    height: 700px;
+   background-image: url(imazhe/casino.jfif);
+   background-size: cover;
+    
 }
 .casino{
     margin-left: auto;
@@ -25,7 +26,7 @@ nav ul li a{
     color: white;
 }
 nav ul li.active{
-    background-color: #643a79;
+    
     border-radius: 5px;
 }
 .main-heading{
@@ -40,16 +41,21 @@ nav ul li.active{
 }
 .main-heading a{
     text-decoration: none;
-    background-color: limegreen;
+    background-color: black;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px  20p;
 }
 #section-2 {
-    background-color: green;
+    background-color: aqua;
     min-height: 745px;
     color: white;
+}
+.poker{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200%;
 }
 .title-box{
     text-align: center;
@@ -93,7 +99,7 @@ nav ul li.active{
     margin-top: 60px;
 }
 #section-3{
- background-color: rgb(13, 63, 13);
+ background-color:palevioletred;
  min-height: 850px;
  color: white;
 }
@@ -111,7 +117,7 @@ input[type="text"], input[type="email"]{
 }
 input[type="text"], input[type="email"] textarea{
     color: white;
-    background-color: blue;
+    background-color: black;
     border: none;
     font-size: 18px;
     margin: 16px;
@@ -124,7 +130,7 @@ textarea{
     padding-top: 26px;
 }
 input[type="submit"]{
-    background-color: red;
+    background-color: yellow;
     border: none;
     font-size: 18px;
     text-transform: uppercase;
